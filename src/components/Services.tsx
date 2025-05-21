@@ -256,7 +256,7 @@ const Services = () => {
         </div> */}
 
         <div className="mt-16 text-center relative">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-boswin-navy to-red-500">
+        <h2 className="text-3xl md:text-8xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-boswin-navy to-red-500">
               Our Brands
             </h2>
           {/* Decorative red accent for the bottom section */}
