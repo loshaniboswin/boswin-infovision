@@ -5,12 +5,13 @@ import alipay from "../images/alipay2.png";
 import beeze from "../images/Beez.png";
 import citymall from "../images/citymall.png";
 import falcora from "../images/falcora.png";
-import kdona from "../images/Kdona.png";
+import kdona from "../images/kdona.png";
 import sripay from "../images/Sripay.png";
 import tea from "../images/tea2.png";
 import V from "../images/V2.png";
 import wechat from "../images/Wechat.png";
 import xiomi from "../images/Xiomi.png";
+import ewheel from "../images/ewheel.png";
 
 type Brand = {
     logo?: string;
@@ -39,7 +40,7 @@ const brands: Brand[] = [
         description: "Electric Three Wheeler Conversion",
         details:
             "Upgrade your three-wheeler with the BOSWIN ECO-Electric Conversion. Go green and save with an electric twist!",
-        logo: "",
+        logo:ewheel,
     },
     {
 
@@ -111,7 +112,7 @@ const BrandSection: React.FC = () => {
                 {brands.map((brand, index) => (
                     <div
                         key={index}
-                        className="min-w-[250px] max-w-xs bg-white rounded-xl shadow-md p-6 mx-3 flex-shrink-0 flex flex-col items-center text-center transition-transform duration-500 transform hover:scale-105 h-[350px]"
+                        className="min-w-[200px] max-w-xs bg-white rounded-xl shadow-md p-6 mx-3 flex-shrink-0 flex flex-col items-center text-center transition-transform duration-500 transform hover:scale-105 h-[250px]"
                     >
                         {brand.logo ? (
                             <img
