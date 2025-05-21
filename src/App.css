@@ -45,3 +45,12 @@
 .text-border {
   -webkit-text-stroke: 2px white;
 }
+
+/* Tailwind config or globals.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

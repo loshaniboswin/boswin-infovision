@@ -259,8 +259,8 @@ const About = () => {
       <section className="py-16 bg-white bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            {/* <h2
-              className="text-7xl font-bold mb-8 text-center text-white"
+            <h2
+              className="text-6xl font-bold mb-8 text-center text-white"
               style={{
                 textShadow:
                   "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
@@ -268,31 +268,15 @@ const About = () => {
               }}
             >
               COMPANY INTRODUCTION
-            </h2> */}
-            <h2
-              className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-boswin-navy to-red-500 text-transparent bg-clip-text"
-            >
-              COMPANY INTRODUCTION
             </h2>
 
-            <div className="prose prose-lg mx-auto text-boswin-gray text-1xl text-center">
+
+            <div className="prose prose-lg mx-auto text-boswin-gray text-2xl text-center">
               <p className="mb-6">
-                Boswin is an innovative technology development company, where
-                the Boswin Group is a fast-paced limited liability conglomerate
-                of companies based in Sri Lanka which has its present networks
-                in Sri Lanka, Hong Kong and China. Boswin constantly seeks to be
-                the cutting edge of innovation, diving into the novel findings
-                of the globe and exploring on how the company as a multi-faceted
-                entity can make a technological difference in the world.
+                Boswin Group is a dynamic technology development company headquartered in Sri Lanka, with networks in Hong Kong and China. Driven by innovation, Boswin explores global advancements to make a technological impact.
+                Currently, the group operates across Fintech, Agriculture, Education, Industrial Solutions, Manufacturing, Exports, Business Solutions, and Trading. It also engages in International Investments, Consultancy, and Logistics.
               </p>
-              <p>
-                At present, the Boswin Group has ventured into Fintech,
-                Agriculture, Education, Industrial Solutions, Manufacturing,
-                Exports, Business Solutions and Trading. Boswin focuses on
-                deploying innovative technologies and prudent trading practices
-                in its operations. Further, Boswin is indulged in International
-                Investments, Consultancy and Logistics.
-              </p>
+
             </div>
           </div>
         </div>
